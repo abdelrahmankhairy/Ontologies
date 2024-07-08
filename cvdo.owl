@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/abdel/ontologies/2021/10/COVID-19-Ontology#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/abdel/ontologies/2021/10/COVID-19-Ontology#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="cvdo" IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/COVID-19-Ontology#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="ContactEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#Household"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hadContact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasAgent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateDeceased"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateOfContact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateTested"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateVaccinated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#hadContactWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#hasMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#residesAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#tookCOVID-19Test"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#tookCOVID-19Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="residesAt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="testDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="timeOfContact"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="vaccinationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#cityName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateOfContact"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateOfDeath"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#day"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#month"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#result"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#testTakenOn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#vaccineTakenInCity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#vaccineTakenOn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#vaccineType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#year"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="ContactEvent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="hasAgent"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="ContactEvent"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="timeOfContact"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="ContactEvent"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="timeOfContact"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Test"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="testDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Test"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#result"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Test"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="testDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Test"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#result"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Vaccine"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="vaccinationDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Vaccine"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#vaccineType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Vaccine"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="vaccinationDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Vaccine"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#vaccineType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#Household"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#hasMember"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#Household"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="residesAt"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#Household"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="residesAt"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="hadContact"/>
+            <Class IRI="ContactEvent"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#isMemberOf"/>
+            <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#Household"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#tookCOVID-19Test"/>
+            <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Test"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#tookCOVID-19Vaccine"/>
+            <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Vaccine"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#isMemberOf"/>
+            <Class IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#Household"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="age"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="gender"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateOfDeath"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="age"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="gender"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

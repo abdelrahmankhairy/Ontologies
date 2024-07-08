@@ -1,0 +1,250 @@
+@prefix : <http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/abdel/ontologies/2021/10/COVID-19-Ontology#> .
+
+<http://www.semanticweb.org/abdel/ontologies/2021/10/COVID-19-Ontology#> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateDeceased
+:dateDeceased rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateOfContact
+:dateOfContact rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateTested
+:dateTested rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateVaccinated
+:dateVaccinated rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#hadContactWith
+:hadContactWith rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#hasMember
+:hasMember rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#isMemberOf
+:isMemberOf rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#residesAt
+:residesAt rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#tookCOVID-19Test
+:tookCOVID-19Test rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#tookCOVID-19Vaccine
+:tookCOVID-19Vaccine rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#cityName
+:cityName rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateOfContact
+:dateOfContact rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#dateOfDeath
+:dateOfDeath rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#day
+:day rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#hasAge
+:hasAge rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#hasGender
+:hasGender rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#month
+:month rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#result
+:result rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#testTakenOn
+:testTakenOn rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#vaccineTakenInCity
+:vaccineTakenInCity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#vaccineTakenOn
+:vaccineTakenOn rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#vaccineType
+:vaccineType rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#year
+:year rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#Address
+:Address rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :cityName ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:string
+                             ] .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Test
+:COVID-19Test rdf:type owl:Class ;
+              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :dateTested ;
+                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass :DateTimeDescription
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :result ;
+                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:string
+                                  ] .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#COVID-19Vaccine
+:COVID-19Vaccine rdf:type owl:Class ;
+                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                       owl:onProperty :dateVaccinated ;
+                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onClass :DateTimeDescription
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :vaccineType ;
+                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onDataRange xsd:string
+                                     ] .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#Contact
+:Contact rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :hadContactWith ;
+                               owl:someValuesFrom <http://xmlns.com/foaf/0.1/Person>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :dateOfContact ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :DateTimeDescription
+                             ] ;
+         rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#DateTimeDescription
+:DateTimeDescription rdf:type owl:Class ;
+                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                           owl:onProperty :day ;
+                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:int
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :month ;
+                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:int
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :year ;
+                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:int
+                                         ] .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#DeceasedIndividual
+:DeceasedIndividual rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                          owl:onProperty :dateDeceased ;
+                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                          owl:onClass :DateTimeDescription
+                                        ] ;
+                    rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#Household
+:Household rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasMember ;
+                                 owl:someValuesFrom <http://xmlns.com/foaf/0.1/Person>
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :residesAt ;
+                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass :Address
+                               ] .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#TestedIndividual
+:TestedIndividual rdf:type owl:Class ;
+                  owl:equivalentClass [ rdf:type owl:Restriction ;
+                                        owl:onProperty :tookCOVID-19Test ;
+                                        owl:someValuesFrom :COVID-19Test
+                                      ] ;
+                  rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://www.semanticweb.org/abdel/ontologies/2021/10/untitled-ontology-18#VaccinatedIndividual
+:VaccinatedIndividual rdf:type owl:Class ;
+                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                            owl:onProperty :tookCOVID-19Vaccine ;
+                                            owl:someValuesFrom :COVID-19Vaccine
+                                          ] ;
+                      rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class ;
+                                   owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :isMemberOf ;
+                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                         owl:onClass :Household
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :hasAge ;
+                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                         owl:onDataRange xsd:int
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :hasGender ;
+                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                         owl:onDataRange xsd:string
+                                                       ] ;
+                                   rdfs:subClassOf <http://xmlns.com/foaf/0.1/Agent> .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,659 @@
+@prefix cvdo: <http://www.semanticweb.org/abdel/ontologies/2021/10/COVID-19-Ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cvdo:C1 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo:I24 ;
+    cvdo:timeOfContact "2021-08-01T00:00:00"^^xsd:dateTime .
+
+cvdo:C10 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo: ;
+    cvdo:timeOfContact """Individual
+I24   2021-07-20
+I24   2021-07-26
+I24   2021-07-27
+Name: Date, dtype: datetime64[ns]"""^^xsd:dateTime .
+
+cvdo:C11 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo:I25 ;
+    cvdo:timeOfContact "2021-08-05T00:00:00"^^xsd:dateTime .
+
+cvdo:C12 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo:I24 ;
+    cvdo:timeOfContact "2021-07-20T00:00:00"^^xsd:dateTime .
+
+cvdo:C13 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo:I29 ;
+    cvdo:timeOfContact "2021-08-25T00:00:00"^^xsd:dateTime .
+
+cvdo:C2 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo:I24 ;
+    cvdo:timeOfContact "2021-07-29T00:00:00"^^xsd:dateTime .
+
+cvdo:C3 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo:I12 ;
+    cvdo:timeOfContact "2021-07-25T00:00:00"^^xsd:dateTime .
+
+cvdo:C4 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo:I24 ;
+    cvdo:timeOfContact "2021-07-27T00:00:00"^^xsd:dateTime .
+
+cvdo:C5 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo:I21 ;
+    cvdo:timeOfContact "2021-08-27T00:00:00"^^xsd:dateTime .
+
+cvdo:C6 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo:I24 ;
+    cvdo:timeOfContact "2021-07-26T00:00:00"^^xsd:dateTime .
+
+cvdo:C7 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo:I13 ;
+    cvdo:timeOfContact "2021-07-24T00:00:00"^^xsd:dateTime .
+
+cvdo:C8 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo: ;
+    cvdo:timeOfContact """Individual
+I24   2021-07-20
+I24   2021-07-26
+I24   2021-07-27
+Name: Date, dtype: datetime64[ns]"""^^xsd:dateTime .
+
+cvdo:C9 a cvdo:ContactEvent ;
+    cvdo:hasAgent cvdo: ;
+    cvdo:timeOfContact """Individual
+I24   2021-07-20
+I24   2021-07-26
+I24   2021-07-27
+Name: Date, dtype: datetime64[ns]"""^^xsd:dateTime .
+
+cvdo:H10 a cvdo:Household ;
+    cvdo:hasMember cvdo:I18 ;
+    cvdo:residesAt "Richmond Hill" .
+
+cvdo:H11 a cvdo:Household ;
+    cvdo:hasMember cvdo:I19 ;
+    cvdo:residesAt "Toronto" .
+
+cvdo:H12 a cvdo:Household ;
+    cvdo:hasMember cvdo:I20 ;
+    cvdo:residesAt "Pickering" .
+
+cvdo:H13 a cvdo:Household ;
+    cvdo:hasMember cvdo:I21 ;
+    cvdo:residesAt "Richmond Hill" .
+
+cvdo:H14 a cvdo:Household ;
+    cvdo:hasMember cvdo:I22 ;
+    cvdo:residesAt "Waterloo" .
+
+cvdo:H15 a cvdo:Household ;
+    cvdo:hasMember cvdo:I23 ;
+    cvdo:residesAt "Waterloo" .
+
+cvdo:H16 a cvdo:Household ;
+    cvdo:hasMember cvdo:I24 ;
+    cvdo:residesAt "Toronto" .
+
+cvdo:H17 a cvdo:Household ;
+    cvdo:hasMember cvdo:I25 ;
+    cvdo:residesAt "Pickering" .
+
+cvdo:H18 a cvdo:Household ;
+    cvdo:hasMember cvdo:I27 ;
+    cvdo:residesAt "Pickering" .
+
+cvdo:H19 a cvdo:Household ;
+    cvdo:hasMember cvdo:I28 ;
+    cvdo:residesAt "Toronto" .
+
+cvdo:H20 a cvdo:Household ;
+    cvdo:hasMember cvdo:I29 ;
+    cvdo:residesAt "Richmond Hill" .
+
+cvdo:H21 a cvdo:Household ;
+    cvdo:hasMember cvdo:I3 ;
+    cvdo:residesAt "Waterloo" .
+
+cvdo:H22 a cvdo:Household ;
+    cvdo:hasMember cvdo:I30 ;
+    cvdo:residesAt "Richmond Hill" .
+
+cvdo:H23 a cvdo:Household ;
+    cvdo:hasMember cvdo:I4 ;
+    cvdo:residesAt "Pickering" .
+
+cvdo:H24 a cvdo:Household ;
+    cvdo:hasMember cvdo:I5 ;
+    cvdo:residesAt "Toronto" .
+
+cvdo:H25 a cvdo:Household ;
+    cvdo:hasMember cvdo:I6 ;
+    cvdo:residesAt "Pickering" .
+
+cvdo:H26 a cvdo:Household ;
+    cvdo:hasMember cvdo:I7 ;
+    cvdo:residesAt "Toronto" .
+
+cvdo:H27 a cvdo:Household ;
+    cvdo:hasMember cvdo:I8 ;
+    cvdo:residesAt "Waterloo" .
+
+cvdo:H3 a cvdo:Household ;
+    cvdo:hasMember cvdo:I11 ;
+    cvdo:residesAt "Richmond Hill" .
+
+cvdo:H4 a cvdo:Household ;
+    cvdo:hasMember cvdo:I12 ;
+    cvdo:residesAt "Waterloo" .
+
+cvdo:H5 a cvdo:Household ;
+    cvdo:hasMember cvdo:I13 ;
+    cvdo:residesAt "Waterloo" .
+
+cvdo:H6 a cvdo:Household ;
+    cvdo:hasMember cvdo:I14 ;
+    cvdo:residesAt "Toronto" .
+
+cvdo:H7 a cvdo:Household ;
+    cvdo:hasMember cvdo:I15 ;
+    cvdo:residesAt "Pickering" .
+
+cvdo:H8 a cvdo:Household ;
+    cvdo:hasMember cvdo:I16 ;
+    cvdo:residesAt "Richmond Hill" .
+
+cvdo:H9 a cvdo:Household ;
+    cvdo:hasMember cvdo:I17 ;
+    cvdo:residesAt "Richmond Hill" .
+
+cvdo:I1 a foaf:Person ;
+    cvdo:age 45 ;
+    cvdo:gender "Female" ;
+    cvdo:memberOf cvdo:H1 ;
+    cvdo:tookTest cvdo:T1 .
+
+cvdo:I10 a foaf:Person ;
+    cvdo:age 56 ;
+    cvdo:gender "Male" ;
+    cvdo:memberOf cvdo:H2 ;
+    cvdo:received cvdo:V9 ;
+    cvdo:tookTest cvdo:T10 .
+
+cvdo:I11 a foaf:Person ;
+    cvdo:age 70 ;
+    cvdo:dateOfDeath "2021-08-26T00:00:00"^^xsd:dateTime ;
+    cvdo:gender "Male" ;
+    cvdo:memberOf cvdo:H3 ;
+    cvdo:tookTest cvdo:T11 .
+
+cvdo:I14 a foaf:Person ;
+    cvdo:age 33 ;
+    cvdo:gender "Female" ;
+    cvdo:hadContact cvdo:C4 ;
+    cvdo:memberOf cvdo:H6 ;
+    cvdo:received cvdo:V12 ;
+    cvdo:tookTest cvdo:T14 .
+
+cvdo:I15 a foaf:Person ;
+    cvdo:age 8 ;
+    cvdo:gender "Female" ;
+    cvdo:memberOf cvdo:H7 ;
+    cvdo:received cvdo:V13 ;
+    cvdo:tookTest cvdo:T15 .
+
+cvdo:I16 a foaf:Person ;
+    cvdo:age 6 ;
+    cvdo:gender "Male" ;
+    cvdo:hadContact cvdo:C5 ;
+    cvdo:memberOf cvdo:H8 ;
+    cvdo:received cvdo:V14 ;
+    cvdo:tookTest cvdo:T16 .
+
+cvdo:I17 a foaf:Person ;
+    cvdo:age 72 ;
+    cvdo:gender "Male" ;
+    cvdo:memberOf cvdo:H9 ;
+    cvdo:received cvdo:V15 ;
+    cvdo:tookTest cvdo:T17 .
+
+cvdo:I18 a foaf:Person ;
+    cvdo:age 76 ;
+    cvdo:gender "Female" ;
+    cvdo:memberOf cvdo:H10 ;
+    cvdo:tookTest cvdo:T18 .
+
+cvdo:I19 a foaf:Person ;
+    cvdo:age 56 ;
+    cvdo:gender "Female" ;
+    cvdo:hadContact cvdo:C6 ;
+    cvdo:memberOf cvdo:H11 ;
+    cvdo:received cvdo:V16 ;
+    cvdo:tookTest cvdo:T19 .
+
+cvdo:I2 a foaf:Person ;
+    cvdo:age 29 ;
+    cvdo:gender "Female" ;
+    cvdo:memberOf cvdo:H1 ;
+    cvdo:received cvdo:V1 ;
+    cvdo:tookTest cvdo:T2 .
+
+cvdo:I20 a foaf:Person ;
+    cvdo:age 48 ;
+    cvdo:gender "Female" ;
+    cvdo:memberOf cvdo:H12 ;
+    cvdo:received cvdo:V17 ;
+    cvdo:tookTest cvdo:T20 .
+
+cvdo:I22 a foaf:Person ;
+    cvdo:age 69 ;
+    cvdo:gender "Male" ;
+    cvdo:hadContact cvdo:C7 ;
+    cvdo:memberOf cvdo:H14 ;
+    cvdo:received cvdo:V19 ;
+    cvdo:tookTest cvdo:T22 .
+
+cvdo:I23 a foaf:Person ;
+    cvdo:age 41 ;
+    cvdo:gender "Female" ;
+    cvdo:memberOf cvdo:H15 ;
+    cvdo:received cvdo:V20 ;
+    cvdo:tookTest cvdo:T23 .
+
+cvdo:I26 a foaf:Person ;
+    cvdo:age 9 ;
+    cvdo:gender "Male" ;
+    cvdo:memberOf cvdo:H1 ;
+    cvdo:received cvdo:V23 ;
+    cvdo:tookTest cvdo:T26 .
+
+cvdo:I27 a foaf:Person ;
+    cvdo:age 51 ;
+    cvdo:gender "Female" ;
+    cvdo:hadContact cvdo:C11 ;
+    cvdo:memberOf cvdo:H18 ;
+    cvdo:received cvdo:V24 ;
+    cvdo:tookTest cvdo:T27 .
+
+cvdo:I28 a foaf:Person ;
+    cvdo:age 41 ;
+    cvdo:gender "Male" ;
+    cvdo:hadContact cvdo:C12 ;
+    cvdo:memberOf cvdo:H19 ;
+    cvdo:received cvdo:V25 ;
+    cvdo:tookTest cvdo:T28 .
+
+cvdo:I3 a foaf:Person ;
+    cvdo:age 38 ;
+    cvdo:gender "Male" ;
+    cvdo:memberOf cvdo:H21 ;
+    cvdo:received cvdo:V2 ;
+    cvdo:tookTest cvdo:T3 .
+
+cvdo:I30 a foaf:Person ;
+    cvdo:age 73 ;
+    cvdo:gender "Female" ;
+    cvdo:hadContact cvdo:C13 ;
+    cvdo:memberOf cvdo:H22 ;
+    cvdo:received cvdo:V27 ;
+    cvdo:tookTest cvdo:T30 .
+
+cvdo:I4 a foaf:Person ;
+    cvdo:age 16 ;
+    cvdo:gender "Male" ;
+    cvdo:memberOf cvdo:H23 ;
+    cvdo:received cvdo:V3 ;
+    cvdo:tookTest cvdo:T4 .
+
+cvdo:I5 a foaf:Person ;
+    cvdo:age 55 ;
+    cvdo:dateOfDeath "2021-08-23T00:00:00"^^xsd:dateTime ;
+    cvdo:gender "Male" ;
+    cvdo:hadContact cvdo:C1 ;
+    cvdo:memberOf cvdo:H24 ;
+    cvdo:received cvdo:V4 ;
+    cvdo:tookTest cvdo:T5 .
+
+cvdo:I6 a foaf:Person ;
+    cvdo:age 15 ;
+    cvdo:gender "Male" ;
+    cvdo:memberOf cvdo:H25 ;
+    cvdo:received cvdo:V5 ;
+    cvdo:tookTest cvdo:T6 .
+
+cvdo:I7 a foaf:Person ;
+    cvdo:age 30 ;
+    cvdo:gender "Female" ;
+    cvdo:hadContact cvdo:C2 ;
+    cvdo:memberOf cvdo:H26 ;
+    cvdo:received cvdo:V6 ;
+    cvdo:tookTest cvdo:T7 .
+
+cvdo:I8 a foaf:Person ;
+    cvdo:age 39 ;
+    cvdo:gender "Male" ;
+    cvdo:memberOf cvdo:H27 ;
+    cvdo:received cvdo:V7 ;
+    cvdo:tookTest cvdo:T8 .
+
+cvdo:I9 a foaf:Person ;
+    cvdo:age 15 ;
+    cvdo:gender "Female" ;
+    cvdo:memberOf cvdo:H2 ;
+    cvdo:received cvdo:V8 ;
+    cvdo:tookTest cvdo:T9 .
+
+cvdo:T1 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-07-07T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-04T00:00:00"^^xsd:dateTime .
+
+cvdo:T10 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-07-17T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-13T00:00:00"^^xsd:dateTime .
+
+cvdo:T11 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-08-04T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-01T00:00:00"^^xsd:dateTime .
+
+cvdo:T12 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-09-04T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-30T00:00:00"^^xsd:dateTime .
+
+cvdo:T13 a cvdo:COVIDTest ;
+    cvdo:result "Positive" ;
+    cvdo:resultDate "2021-07-28T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-26T00:00:00"^^xsd:dateTime .
+
+cvdo:T14 a cvdo:COVIDTest ;
+    cvdo:result "Positive" ;
+    cvdo:resultDate "2021-07-22T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-01T00:00:00"^^xsd:dateTime .
+
+cvdo:T15 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-08-01T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-30T00:00:00"^^xsd:dateTime .
+
+cvdo:T16 a cvdo:COVIDTest ;
+    cvdo:result "Positive" ;
+    cvdo:resultDate "2021-07-06T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-03T00:00:00"^^xsd:dateTime .
+
+cvdo:T17 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-08-17T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-14T00:00:00"^^xsd:dateTime .
+
+cvdo:T18 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-08-04T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-31T00:00:00"^^xsd:dateTime .
+
+cvdo:T19 a cvdo:COVIDTest ;
+    cvdo:result "Positive" ;
+    cvdo:resultDate "2021-07-25T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-30T00:00:00"^^xsd:dateTime .
+
+cvdo:T2 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-07-16T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-13T00:00:00"^^xsd:dateTime .
+
+cvdo:T20 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-08-24T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-22T00:00:00"^^xsd:dateTime .
+
+cvdo:T21 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-08-30T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-28T00:00:00"^^xsd:dateTime .
+
+cvdo:T22 a cvdo:COVIDTest ;
+    cvdo:result "Positive" ;
+    cvdo:resultDate "2021-08-10T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-06T00:00:00"^^xsd:dateTime .
+
+cvdo:T23 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-08-19T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-15T00:00:00"^^xsd:dateTime .
+
+cvdo:T24 a cvdo:COVIDTest ;
+    cvdo:result "Positive" ;
+    cvdo:resultDate "2021-08-02T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-29T00:00:00"^^xsd:dateTime .
+
+cvdo:T25 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-08-13T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-10T00:00:00"^^xsd:dateTime .
+
+cvdo:T26 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-07-06T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-02T00:00:00"^^xsd:dateTime .
+
+cvdo:T27 a cvdo:COVIDTest ;
+    cvdo:result "Positive" ;
+    cvdo:resultDate "2021-08-19T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-16T00:00:00"^^xsd:dateTime .
+
+cvdo:T28 a cvdo:COVIDTest ;
+    cvdo:result "Positive" ;
+    cvdo:resultDate "2021-08-11T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-06T00:00:00"^^xsd:dateTime .
+
+cvdo:T29 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-09-03T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-31T00:00:00"^^xsd:dateTime .
+
+cvdo:T3 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-09-01T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-27T00:00:00"^^xsd:dateTime .
+
+cvdo:T30 a cvdo:COVIDTest ;
+    cvdo:result "Positive" ;
+    cvdo:resultDate "2021-07-10T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-07T00:00:00"^^xsd:dateTime .
+
+cvdo:T4 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-07-28T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-24T00:00:00"^^xsd:dateTime .
+
+cvdo:T5 a cvdo:COVIDTest ;
+    cvdo:result "Positive" ;
+    cvdo:resultDate "2021-09-01T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-09T00:00:00"^^xsd:dateTime .
+
+cvdo:T6 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-08-22T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-17T00:00:00"^^xsd:dateTime .
+
+cvdo:T7 a cvdo:COVIDTest ;
+    cvdo:result "Positive" ;
+    cvdo:resultDate "2021-08-21T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-10T00:00:00"^^xsd:dateTime .
+
+cvdo:T8 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-07-12T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-07-08T00:00:00"^^xsd:dateTime .
+
+cvdo:T9 a cvdo:COVIDTest ;
+    cvdo:result "Negative" ;
+    cvdo:resultDate "2021-08-13T00:00:00"^^xsd:dateTime ;
+    cvdo:testDate "2021-08-10T00:00:00"^^xsd:dateTime .
+
+cvdo:V1 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-04-07T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Pfizer-BioNTech" .
+
+cvdo:V10 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-09-22T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Moderna" .
+
+cvdo:V11 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-04-29T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Pfizer-BioNTech" .
+
+cvdo:V12 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-03-29T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Moderna" .
+
+cvdo:V13 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-05-23T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "AstraZeneca" .
+
+cvdo:V14 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-04-26T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Johnson & Johnson" .
+
+cvdo:V15 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-04-12T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Moderna" .
+
+cvdo:V16 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-06-10T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Moderna" .
+
+cvdo:V17 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-06-01T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Johnson & Johnson" .
+
+cvdo:V18 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-06-20T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Pfizer-BioNTech" .
+
+cvdo:V19 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-05-13T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Johnson & Johnson" .
+
+cvdo:V2 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-05-14T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Johnson & Johnson" .
+
+cvdo:V20 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-06-22T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Moderna" .
+
+cvdo:V21 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-03-30T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "AstraZeneca" .
+
+cvdo:V22 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-05-26T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Johnson & Johnson" .
+
+cvdo:V23 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-03-09T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Johnson & Johnson" .
+
+cvdo:V24 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-05-06T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "AstraZeneca" .
+
+cvdo:V25 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-03-04T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Pfizer-BioNTech" .
+
+cvdo:V26 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-03-04T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Johnson & Johnson" .
+
+cvdo:V27 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-03-17T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Moderna" .
+
+cvdo:V3 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-04-16T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "AstraZeneca" .
+
+cvdo:V4 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-03-21T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Johnson & Johnson" .
+
+cvdo:V5 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-05-31T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Pfizer-BioNTech" .
+
+cvdo:V6 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-07-25T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Johnson & Johnson" .
+
+cvdo:V7 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-04-28T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Johnson & Johnson" .
+
+cvdo:V8 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-09-15T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "AstraZeneca" .
+
+cvdo:V9 a cvdo:COVIDVaccine ;
+    cvdo:vaccinationDate "2021-06-07T00:00:00"^^xsd:dateTime ;
+    cvdo:vaccineType "Pfizer-BioNTech" .
+
+cvdo:H2 a cvdo:Household ;
+    cvdo:hasMember cvdo:I10,
+        cvdo:I9 ;
+    cvdo:residesAt "Richmond Hill" .
+
+cvdo:I12 a foaf:Person ;
+    cvdo:age 33 ;
+    cvdo:gender "Male" ;
+    cvdo:memberOf cvdo:H4 ;
+    cvdo:received cvdo:V10 ;
+    cvdo:tookTest cvdo:T12 .
+
+cvdo:I13 a foaf:Person ;
+    cvdo:age 73 ;
+    cvdo:gender "Female" ;
+    cvdo:hadContact cvdo:C3 ;
+    cvdo:memberOf cvdo:H5 ;
+    cvdo:received cvdo:V11 ;
+    cvdo:tookTest cvdo:T13 .
+
+cvdo:I21 a foaf:Person ;
+    cvdo:age 15 ;
+    cvdo:gender "Female" ;
+    cvdo:memberOf cvdo:H13 ;
+    cvdo:received cvdo:V18 ;
+    cvdo:tookTest cvdo:T21 .
+
+cvdo:I25 a foaf:Person ;
+    cvdo:age 12 ;
+    cvdo:gender "Female" ;
+    cvdo:memberOf cvdo:H17 ;
+    cvdo:received cvdo:V22 ;
+    cvdo:tookTest cvdo:T25 .
+
+cvdo:I29 a foaf:Person ;
+    cvdo:age 29 ;
+    cvdo:gender "Male" ;
+    cvdo:memberOf cvdo:H20 ;
+    cvdo:received cvdo:V26 ;
+    cvdo:tookTest cvdo:T29 .
+
+cvdo:H1 a cvdo:Household ;
+    cvdo:hasMember cvdo:I1,
+        cvdo:I2,
+        cvdo:I26 ;
+    cvdo:residesAt "Toronto" .
+
+cvdo:I24 a foaf:Person ;
+    cvdo:age 15 ;
+    cvdo:gender "Female" ;
+    cvdo:hadContact cvdo:C10,
+        cvdo:C8,
+        cvdo:C9 ;
+    cvdo:memberOf cvdo:H16 ;
+    cvdo:received cvdo:V21 ;
+    cvdo:tookTest cvdo:T24 .
+
